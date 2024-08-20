@@ -169,7 +169,7 @@ export class SignUpComponent implements OnInit, AfterViewInit {
       this.msg = 'Invalid captcha kindly try again!';
       this.type = 'danger';
       this.scrollTop();
-      return;
+      // return;
     }
     if (this.registerForm.valid) {
       this.spinner.show();
