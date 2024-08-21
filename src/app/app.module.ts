@@ -23,7 +23,7 @@ import { AuthInterceptor } from './@shared/intersaptor/auth.interceptor';
     AppRoutingModule,
     HttpClientModule,
     SharedModule,
-    BrowserModule.withServerTransition({ appId: 'Freedom-buzz' }),
+    BrowserModule.withServerTransition({ appId: 'IslandGuide-tours' }),
     BrowserAnimationsModule,
     TransferHttpCacheModule,
   ],

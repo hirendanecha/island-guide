@@ -14,7 +14,7 @@ export class BuzzRingPolicyComponent {
       title: 'BuzzRing App Privacy Policy',
       url: `${environment.webUrl}buzzring-policy`,
       description: 'IslandGuide.tours BuzzRing App Privacy Policy',
-      image: `${environment.webUrl}assets/images/landingpage/freedom-buzz.png`,
+      image: `${environment.webUrl}assets/images/landingpage/IslandGuide.tours.png`,
     };
     this.seoService.updateSeoMetaData(data);
   }

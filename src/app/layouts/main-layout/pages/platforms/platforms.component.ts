@@ -14,7 +14,7 @@ export class PlatformsComponent {
       title: 'IslandGuide.tours Platforms',
       url: `${environment.webUrl}platforms`,
       description: '',
-      image: `${environment.webUrl}assets/images/landingpage/freedom-buzz.png`,
+      image: `${environment.webUrl}assets/images/landingpage/IslandGuide.tours.png`,
     };
     this.seoService.updateSeoMetaData(data);
   }

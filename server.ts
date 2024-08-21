@@ -81,9 +81,9 @@ export function app(): express.Express {
         var seo: any = {
           title: 'IslandGuide Tours',
           description:
-            'The Umbrella platform for All tours based projects worldwide',
+            'Discover Hidden Gems Locally or Experience Island Adventures Globally through Live Tours',
           image:
-            'https://islandguides.tours/assets/images/banner/freedom-buzz-high-res.jpeg',
+            'https://islandguides.tours/assets/images/landingpage/IslandGuide.jpg',
           site: 'https://islandguides.tours/',
           url: 'https://islandguides.tours' + params,
           keywords: 'IslandGuideTours, IslandGuide',
@@ -125,7 +125,7 @@ export function app(): express.Express {
           const talent = {
             name: post?.title || post?.albumname || 'IslandGuide.Tours Post',
             description: pdhtml?.textContent || 'Post content',
-            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://freedom.buzz/assets/images/banner/freedom-buzz-high-res.jpeg',
+            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://islandguides.tours/assets/images/landingpage/IslandGuide.jpg',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);

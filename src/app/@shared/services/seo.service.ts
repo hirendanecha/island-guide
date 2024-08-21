@@ -69,7 +69,7 @@ export class SeoService {
     }
 
     if (!tagValue.image) {
-      tagValue.image = 'https://freedom.buzz/assets/images/banner/freedom-buzz-high-res.jpeg';
+      tagValue.image = 'https://islandguides.tours/assets/images/landingpage/IslandGuide.jpg';
     }
 
     this.meta.updateTag({

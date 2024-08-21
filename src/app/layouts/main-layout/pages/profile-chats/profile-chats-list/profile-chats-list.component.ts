@@ -1030,7 +1030,7 @@ export class ProfileChatsListComponent
           this.groupData?.groupName ||
           this.sharedService?.userData?.Username + ' incoming call...',
         notificationToProfileId: this.userChat.profileId,
-        domain: 'freedom.buzz',
+        domain: 'islandguide.tours',
         uuId: uuId,
       };
       this.customerService.startCallToBuzzRing(buzzRingData).subscribe({
@@ -1058,7 +1058,7 @@ export class ProfileChatsListComponent
           this.groupData?.groupName ||
           this.sharedService?.userData?.Username + ' incoming call...',
         notificationToProfileIds: groupMembers,
-        domain: 'freedom.buzz',
+        domain: 'islandguide.tours',
         uuId: uuId,
       };
       this.customerService
@@ -1088,7 +1088,7 @@ export class ProfileChatsListComponent
               this.groupData?.groupName ||
               this?.userChat.Username + 'incoming call...',
             notificationToProfileId: this.userChat.profileId,
-            domain: 'freedom.buzz',
+            domain: 'islandguide.tours',
             uuId: uuId,
           };
           this.customerService.startCallToBuzzRing(buzzRingData).subscribe({

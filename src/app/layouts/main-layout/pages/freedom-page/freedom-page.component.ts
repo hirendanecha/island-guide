@@ -29,7 +29,7 @@ export class FreedomPageComponent {
 
     this.getPages();
     const data = {
-      title: 'IslandGuide.Tours Freedom Pages',
+      title: 'IslandGuide.Tours Pages',
       url: `${location.href}`,
       description: '',
     };

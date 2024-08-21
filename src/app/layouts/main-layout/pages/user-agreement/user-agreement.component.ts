@@ -14,7 +14,7 @@ export class UserAgreementComponent {
       title: 'Freeedom.buzz User Agreement',
       url: `${environment.webUrl}user-agreement`,
       description: 'Agreement page',
-      image: `${environment.webUrl}assets/images/landingpage/freedom-buzz.png`,
+      image: `${environment.webUrl}assets/images/landingpage/IslandGuide.tours.png`,
     };
     this.seoService.updateSeoMetaData(data);
   }
