@@ -69,7 +69,7 @@ export class SeoService {
     }
 
     if (!tagValue.image) {
-      tagValue.image = 'https://islandguides.tours/assets/images/landingpage/IslandGuide.jpg';
+      tagValue.image = 'https://islandguide.tours/assets/images/profile-cover.png';
     }
 
     this.meta.updateTag({

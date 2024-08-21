@@ -83,9 +83,9 @@ export function app(): express.Express {
           description:
             'Find Island Destinations Worldwide and Find Island Guides and Talk One-on-One Before Hiring',
           image:
-            'https://islandguides.tours/assets/images/landingpage/IslandGuide.jpg',
-          site: 'https://islandguides.tours/',
-          url: 'https://islandguides.tours' + params,
+            'https://islandguide.tours/assets/images/profile-cover.png',
+          site: 'https://islandguide.tours/',
+          url: 'https://islandguide.tours' + params,
           keywords: 'IslandGuideTours, IslandGuide',
         };
         if (
@@ -125,7 +125,7 @@ export function app(): express.Express {
           const talent = {
             name: post?.title || post?.albumname || 'IslandGuide.Tours Post',
             description: pdhtml?.textContent || 'Post content',
-            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://islandguides.tours/assets/images/landingpage/IslandGuide.jpg',
+            image: post?.thumbfilename || post?.metaimage || post?.imageUrl || 'https://islandguide.tours/assets/images/profile-cover.png',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);
