@@ -97,7 +97,7 @@ export class SignUpComponent implements OnInit, AfterViewInit {
           // this.onZipChange(val);
         }
       });
-    this.loadCloudFlareWidget();
+    // this.loadCloudFlareWidget();
   }
 
   loadCloudFlareWidget() {
