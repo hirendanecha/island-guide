@@ -81,7 +81,7 @@ export function app(): express.Express {
         var seo: any = {
           title: 'IslandGuide Tours',
           description:
-            'Discover Hidden Gems Locally or Experience Island Adventures Globally through Live Tours',
+            'Find Island Destinations Worldwide and Find Island Guides and Talk One-on-One Before Hiring',
           image:
             'https://islandguides.tours/assets/images/landingpage/IslandGuide.jpg',
           site: 'https://islandguides.tours/',
