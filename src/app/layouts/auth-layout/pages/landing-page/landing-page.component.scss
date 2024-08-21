@@ -9,7 +9,7 @@
     text-transform: none;
   }
   .c-fonts {
-    font-size: min(max(16px, 4vw), 25px);
+    font-size: min(max(16px, 4vw), 24px);
     @media (min-width: 550px) {
       line-height: 32px;
     }
@@ -33,7 +33,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover !important;
-    background-position: center;
+    background-position: center 90%;
     height: calc(100vh - 76px);
     // height: 130vh;
     // background-position: center;
