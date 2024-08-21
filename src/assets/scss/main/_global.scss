@@ -1103,6 +1103,10 @@ li {
   }
 }
 
+.modal-header{
+  justify-content: space-between;
+}
+
 .jw-state-idle .jw-controls {
   background: unset !important;
 }
